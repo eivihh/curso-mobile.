@@ -48,6 +48,13 @@
 .container__botao:checked~.lista-menu{
     display:block;}
 
+.opcoes{
+    display: none;
+}
+
+.container__texto{
+    display: none;
+}
 
 /*VERSAO TABLET*/
 
@@ -60,14 +67,14 @@
     }
 
     .container__titulo--negrito
-    {font-weight: 700;}}
+    {font-weight: 700;}
 
 .opcoes {display: flex;}
 
 .opcoes__item{
     padding:0 1em ;
-    text-transform: uppercase;
-}
+    text-transform: uppercase;}
+
 
 .opcoes__link{
     text-decoration: none;
@@ -89,4 +96,5 @@
 .opcoes__botao:checked~.lista-menu{
     display: block;
     width: auto;
+}
 }
